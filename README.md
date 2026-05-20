@@ -69,7 +69,6 @@ cp .env.example .env
 # 編輯 .env，填入 GEMINI_API_KEY
 
 # 啟動後端（port 8000）
-cd /d D:\tarot-app\backend
 uvicorn main:app --reload
 ```
 
@@ -86,7 +85,6 @@ cp .env.local.example .env.local
 # 確認 NEXT_PUBLIC_API_URL=http://localhost:8000
 
 # 啟動前端（port 3000）
-cd /d D:\tarot-app\frontend
 npm run dev
 ```
 
